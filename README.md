@@ -5,9 +5,9 @@ In this challenge, we practice predicting time series.
 <h3>Task</h3>
 You are given the web traffic data for a particular website, which is measured in terms of user sessions. You are provided with the number of sessions for a time series of  consecutive days starting from . Your task is to predict the number of sessions for the next  days.
 
-</h2>Instruction<h2>
+<h2>Instruction</h2>
 
-</h2>Methodology<h2>
+<h2>Methodology</h2>
 Lets print the data to see if there is any pattern, trend , seasonality .
 <img src="img_girl.jpg" alt="Girl in a jacket">
 
