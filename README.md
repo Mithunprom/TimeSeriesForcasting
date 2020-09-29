@@ -1,13 +1,13 @@
 # TimeSeriesForcasting
 
-##Objective
+<h2>Objective</h2>
 In this challenge, we practice predicting time series. 
-###Task
+<h3>Task</h3>
 You are given the web traffic data for a particular website, which is measured in terms of user sessions. You are provided with the number of sessions for a time series of  consecutive days starting from . Your task is to predict the number of sessions for the next  days.
 
-#Instruction
+</h2>Instruction<h2>
 
-#Methodology
+</h2>Methodology<h2>
 Lets print the data to see if there is any pattern, trend , seasonality .
 <img src="img_girl.jpg" alt="Girl in a jacket">
 
@@ -26,7 +26,7 @@ When fitting seasonal ARIMA models (and any other models for that matter), it is
 <li>The qq-plot on the bottom left shows that the ordered distribution of residuals (blue dots) follows the linear trend of the samples taken from a standard normal distribution with N(0, 1). Again, this is a strong indication that the residuals are normally distributed.</li>
 <li>The residuals over time (top left plot) don’t display any obvious seasonality and appear to be white noise. This is confirmed by the autocorrelation (i.e. correlogram) plot on the bottom right, which shows that the time series residuals have low correlation with lagged versions of itself.</li>
   
-  #Validating Forecasts  
+<h2>Validating Forecasts  </h2>
 We have obtained a model for our time series that can now be used to produce forecasts. We start by comparing predicted values to real values of the time series, which will help us understand the accuracy of our forecasts. The get_prediction() and conf_int() attributes allow us to obtain the values and associated confidence intervals for forecasts of the time series. We requires the forecasts to start at '2013-10-01'. The prediction curve is shown below:
 <img src="img_girl.jpg" alt="Girl in a jacket">
 Also for better view, the predicted region can be ploted deparetly. where er can see that the predcition is quite well considering the sopisticated time series relationship.
